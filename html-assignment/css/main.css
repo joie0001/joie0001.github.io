@@ -1,0 +1,46 @@
+/*change the body paragraph font family and font size*/
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+}
+/*selecting multiple elements*/
+header,footer{
+    background-color: cornsilk;
+}
+/*class selector*/
+.site-title{
+    color:crimson;
+}
+/*id selector*/
+#my-image{
+    box-shadow: 0px 0px 2px 1px black;
+}
+/*Replacing bullets with squares*/
+ul{
+    list-style-type: square;
+}
+/*change background color as needed*/
+ul.square-bullets li:nth-child(odd){
+    background-color:darksalmon;
+}
+/*Remove the bullets*/
+nav ul{
+    list-style-type: none;
+    /*Removing default padding*/
+    padding:0;
+}
+/*remove the underline*/
+nav a{
+    text-decoration: none;
+    background-color:darkseagreen;
+    border:2px coral;
+    padding: 5px 10px;
+}
+/*changing background color of focus or hover*/
+nav a:focus{
+    background-color: chocolate;
+}
+
+
+
+
