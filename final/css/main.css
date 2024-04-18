@@ -1,0 +1,32 @@
+html{
+    font-size: 18px;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+    background-color: #fff;
+}
+.wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+header{
+    background-color: #222;
+}
+
+/* Media query for screens of 760px and above */
+@media screen and (min-width: 760px) {
+    .wrapper {
+        padding: 0 40px;
+    }
+}
+
+.banner {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+}
+
+.banner img {
+    max-width: 100%;
+}
